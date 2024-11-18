@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+#head{
+    background-color: coral;
+    color: wheat;
+    /* display: inline; */
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid wheat;
+    border-radius: 10px;
+}
+
+.container{
+    max-width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.maxNumInput{
+    margin: 10px;
+}
+
+.guessNumInput{
+    margin: 10px;
+    visibility: hidden;
+}
